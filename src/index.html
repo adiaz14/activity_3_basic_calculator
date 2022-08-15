@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/calculator.ico">
+    <link rel="stylesheet" href="/src/styles/index.css">
+    <script type="text/javascript" src="js/index.js"></script>
+    <title>Basic calculator</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="header-headerLabel">
+            <img class="logo" src="images/logo_cuc.png">
+        </div>
+        <h1 class="title">Basic calculator</h1>
+        <h3 class="subtitle">Activity No 3 - Certificade in Software technologies for industry 4.0</h3>
+    </div>
+    <!--#header-->
+
+    <br>
+    <div id="calculator">
+        <div class="screenTop">
+            <span class="screenTop-clear" onclick="calculateValues('C')">C</span>
+            <div class="screenTop-screen"> </div>
+        </div>
+        <div class="keys">
+            <span class="keys-number" onclick="calculateValues('7')">7</span>
+            <span class="keys-number" onclick="calculateValues('8')">8</span>
+            <span class="keys-number" onclick="calculateValues('9')">9</span>
+            <span class="keys-operator" onclick="calculateValues('/')">÷</span>
+            <span class="keys-number" onclick="calculateValues('4')">4</span>
+            <span class="keys-number" onclick="calculateValues('5')">5</span>
+            <span class="keys-number" onclick="calculateValues('6')">6</span>
+            <span class="keys-operator" onclick="calculateValues('*')">x</span>
+            <span class="keys-number" onclick="calculateValues('1')">1</span>
+            <span class="keys-number" onclick="calculateValues('2')">2</span>
+            <span class="keys-number" onclick="calculateValues('3')">3</span>
+            <span class="keys-operator" onclick="calculateValues('-')">-</span>
+            <span class="keys-number" onclick="calculateValues('0')">0</span>
+            <span class="keys-number" onclick="calculateValues('.')">.</span>
+            <span class="keys-equal" onclick="calculateValues('=')">=</span>
+            <span class="keys-operator" onclick="calculateValues('+')">+</span>
+        </div>
+        <!--.keys-->
+    </div>
+    <!--#calculator-->
+
+</body>
+<footer id="generic-footer">
+    <br>
+    <br>
+    <br>
+    <small class="footer-text">
+        <i>Universidad de la Costa, CUC - System Engineering - 2022-2</i>
+    </small>
+</footer>
+<!--#generic-footer-->
+
+
+</html>

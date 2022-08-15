@@ -1,0 +1,139 @@
+/******* General styles *******/
+body {
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    background-color: #FCE4C6;
+}
+
+#calculator {
+    font-family: 'Trebuchet MS';
+    font: bold 14px;
+    background-color: #2C3333;
+    border-radius: 20px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    width: 285px;
+}
+
+/******* Styles for screen top elements *******/
+
+.screenTop .screenTop-screen {
+    background-color: #A5C9CA;
+    border-radius: 10px;
+    color: #FFFFFF;
+    float: right;
+    font-size: 17px;
+    height: 40px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    padding: 0 10px;
+    text-align: right;
+    width: 180px;
+}
+
+.screenTop span.screenTop-clear {
+    background-color: #FF7C87;
+}
+
+.screenTop {
+    overflow: hidden;
+}
+
+.screenTop span.screenTop-clear {
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    color: #888888;
+    cursor: pointer;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 7px 11px 0;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+    width: 66px;
+}
+
+.screenTop span.screenTop-clear {
+    background-color: #FF9FA8;
+    color: #FFFFFF;
+}
+
+.header-headerLabel {
+    height: 10%;
+    overflow: hidden;
+}
+
+.header-headerLabel .logo {
+    float: left;
+}
+
+.title,
+.subtitle {
+    color: crimson;
+}
+
+
+/******* Styles for footer elements *******/
+
+.footer-text {
+    font-weight: bold;
+}
+
+/******* Styles for keys *******/
+
+.keys {
+    overflow: hidden;
+}
+
+.keys span {
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    color: #888888;
+    cursor: pointer;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 7px 11px 0;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+    width: 66px;
+}
+
+.keys span.keys-operator {
+    background-color: #D36B00;
+    color: white;
+    margin-right: 0;
+}
+
+.keys span.keys-equal {
+    background-color: #D36B00;
+    color: white;
+}
+
+/******* Styles for hovers *******/
+
+
+.screenTop span.screenTop-clear:hover {
+    background-color: cornflowerblue;
+    color: #FFFFFF;
+
+}
+
+.keys span.keys-number:hover {
+    background-color: darkslateblue;
+    color: #FFFFFF;
+
+}
+
+.keys span.keys-operator:hover {
+    background-color: darkorange;
+    color: #FFFFFF;
+
+}
+
+.keys span.keys-equal:hover {
+    background-color: darkorange;
+    color: #FFFFFF;
+
+}
